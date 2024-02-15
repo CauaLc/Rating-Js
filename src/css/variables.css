@@ -1,0 +1,8 @@
+:root {
+    --cor-primary: hsl(0, 0%, 100%);
+    --cor-secondary: hsl(217, 12%, 63%);
+    --cor-orange: hsl(25, 97%, 53%);
+    --cor-cinza: hsl(216, 12%, 54%);
+    --cor-background: hsl(216, 12%, 8%);
+    --cor-card: hsl(213, 19%, 18%)
+  }

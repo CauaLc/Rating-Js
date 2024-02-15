@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Overpass", sans-serif;
+}
+
+body{
+    background-color: var(--cor-background);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card,
+.thanks {
+    background-color: var(--cor-card);
+    border-radius: 10px;
+    padding: 1.5rem;
+    max-width: 350px;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks h2{
+    color: var(--cor-primary);
+    font-size: 20px;
+    margin-bottom: 20px;  
+}
+
+.thanks .nota{
+    background-color: hsl(213, 29%, 23%);
+    display: inline-block;
+    color: var(--cor-orange);
+    padding: 5px 10px;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+}
+
+.card img{
+    background-color: hsl(213, 29%, 23%);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+h1{
+    color: var(--cor-primary);
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: var(--cor-secondary);
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.card ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+
+.card ul li button{
+    background-color: hsl(213, 29%, 23%);
+    border-radius: 50%;
+    border: 1px solid hsl(213, 29%, 23%);
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    color: var(--cor-primary);
+    transition: 0.3s;
+}
+
+.card ul li button:hover{
+    background-color: var(--cor-orange);
+}
+
+.card ul li button:focus{
+    background-color: var(--cor-secondary);
+}
+
+
+.btn-submit{
+    width: 100%;
+    padding: 15px;
+    background-color: var(--cor-orange);
+    border: 1px var(--cor-orange);
+    border-radius: 20px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--cor-primary);
+}
+
+.btn-submit:hover {
+    background-color: var(--cor-primary);
+    color: var(--cor-orange);
+  }
+
+
+.hidden{
+    display: none;
+}

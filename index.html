@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    <link rel="shortcut icon" href="./src/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <main>
+        <div class="card">
+            <img src="./src/img/icon-star.svg" alt="ícone de estrela">
+            <h1>How did we do?</h1>
+            <p>Plese let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <ul>
+                <li><button class="btn">1</button></li>
+                <li><button class="btn">2</button></li>
+                <li><button class="btn">3</button></li>
+                <li><button class="btn">4</button></li>
+                <li><button class="btn">5</button></li>
+            </ul>
+            <button class="btn-submit" id="submit">Submit</button>
+        </div>
+
+        <div class="thanks hidden">
+            <img src="./src/img/illustration-thank-you.svg" alt="Thank you picture">
+            <p class="nota">You selected <span id="rating"></span> out of 5</p>
+            <h2>Thank you!</h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, dont't hesitate to get in touch!</p>
+            <button class="btn-submit" id="rateagain">Rate Again</button>
+        </div>
+    </main>
+    
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
